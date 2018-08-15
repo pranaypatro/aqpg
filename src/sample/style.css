@@ -1,0 +1,19 @@
+/**{*/
+    /*-fx-text-fill: #FFFFFF;*/
+/*}*/
+.text-color-white {
+    -fx-text-fill: #FFFFFF;
+}
+.purple-background {
+    -fx-background-color: #1C1D26;
+}
+/*#sideDashboard {*/
+    /*-fx-background-color: #1C1D26;*/
+/*}*/
+/*0F9D58*/
+.btnRed {
+    -fx-background-color: #30479d;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-border-color: #1C1D26;
+}

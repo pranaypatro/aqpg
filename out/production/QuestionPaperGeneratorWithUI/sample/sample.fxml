@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.validation.NumberValidator?>
+<?import com.jfoenix.validation.RequiredFieldValidator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="-6.0" layoutY="-3.0" prefHeight="507.0" prefWidth="811.0">
+         <children>
+            <Pane prefHeight="507.0" prefWidth="147.0">
+               <children>
+                  <AnchorPane layoutX="2.0" layoutY="1.0" prefHeight="507.0" prefWidth="147.0">
+                     <children>
+                        <JFXButton layoutX="3.0" layoutY="143.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="147.0" text="Home" />
+                        <JFXButton layoutX="4.0" layoutY="200.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="147.0" text="Form Filling" />
+                        <JFXButton layoutY="254.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="155.0" text="Generate Paper" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+            <AnchorPane prefHeight="507.0" prefWidth="654.0">
+               <children>
+                  <RequiredFieldValidator layoutX="160.0" layoutY="131.0" />
+                  <NumberValidator layoutX="173.0" layoutY="131.0" />
+                  <RequiredFieldValidator layoutX="173.0" layoutY="76.0" />
+                  <JFXButton layoutX="66.0" layoutY="118.0" mnemonicParsing="false" text="Add Subject" />
+               </children></AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
